@@ -13,5 +13,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4 # use the explicit version number
         with:
-          build: npx cypress run
+          #build: npx cypress run
+          build: npx cypress run --record --key 5490fb6e-a3d4-4303-a53d-72c59049a587
           #start: npm start
